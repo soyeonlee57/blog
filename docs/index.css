@@ -85,15 +85,15 @@ background-color:#81BEF7;
 color:white;
 }
 
-.top-bar > div:first-child {
+.top-bar > .con > div:first-child {
 width:240px;
 }
 
-.top-bar > div:nth-child(2) {
+.top-bar > .con > div:nth-child(2) {
 width:calc(100% - 240px - 650px);
 }
 
-.top-bar > div:last-child {
+.top-bar > .con > div:last-child {
 width:650px;
 }
 
