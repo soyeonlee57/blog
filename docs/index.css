@@ -80,6 +80,7 @@ display:block;
   width:1200px;
 }
 
+/*탑바시작*/
 .top-bar {
 background-color:#81BEF7;
 color:white;
@@ -149,3 +150,15 @@ display:block;
 background-color:#F5A9A9;
 color:white;
 }
+/*탑바 끝*/
+
+/*work-list-box 시작*/
+.work-list-box > ul > li {
+  width:25%;
+}
+
+.work-list-box > ul > li >img {
+  width:100%;
+  display:block;
+}
+/*work-list-box 시작*/

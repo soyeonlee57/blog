@@ -35,7 +35,16 @@ text-decoration:none;
 
 /* 라이브러리 */
 .inline-grid {
-font-size:0;/* 폰트 */
+font-size:0;
+}
+
+.inline-grid > * {
+font-size:1rem;
+display:inline-block;
+box-sizing:border-box;
+vertical-align:top;
+}
+/* 폰트 */
 @font-face {
   font-family: 'DungGeunMo';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
@@ -186,15 +195,6 @@ display:block;
 background-color:#F5A9A9;
 color:white;
 }
-}
-
-.inline-grid > * {
-font-size:1rem;
-display:inline-block;
-box-sizing:border-box;
-vertical-align:top;
-}
-
 .border-red {
 border:10px solid red;
 }
@@ -219,21 +219,31 @@ text-align:right;
 display:block;
 }
 
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* 커스텀 */
+
+.con {
+  width:1800px;
+}
+
 .top-bar {
 background-color:#81BEF7;
 color:white;
 }
 
-.top-bar > div:first-child {
+.top-bar > .con > div:first-child {
 width:240px;
 }
 
-.top-bar > div:nth-child(2) {
+.top-bar > .con > div:nth-child(2) {
 width:calc(100% - 240px - 650px);
 }
 
-.top-bar > div:last-child {
+.top-bar > .con > div:last-child {
 width:650px;
 }
 
