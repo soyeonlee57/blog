@@ -156,14 +156,22 @@ color:white;
 }
 /*탑바 끝*/
 
-/*work-list-box 시작*/
-.work-list-box > ul > li {
-  margin-top:10px;
-  width:calc((100% - (5 - 1) * 10px) / 5);
+/*section-0*/
+.section-0 {
+  margin-top:20px;
 }
 
-.work-list-box > ul > li:not(:nth-child(5n)) {
-  margin-right:10px;
+/*work-list-box 시작*/
+
+.work-list-box > ul {
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+.work-list-box > ul > li {
+  margin-top:20px;
+  width:20%;
+  padding:0 10px;
 }
 
 /*work-list-box 끝*/
