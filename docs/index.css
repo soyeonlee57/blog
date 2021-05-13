@@ -74,6 +74,10 @@ display:block;
   margin-right: auto;
 }
 
+.img-box > img {
+  width:100%;
+  display:block;
+}
 
 /* 커스텀 */
 .con {
@@ -154,13 +158,12 @@ color:white;
 
 /*work-list-box 시작*/
 .work-list-box > ul > li {
-  margin-top:20px;
-  width:calc((100%-(8 - 1) * 20px) / 8);
+  margin-top:10px;
+  width:calc((100% - (5 - 1) * 10px) / 5);
 }
 
-.work-list-box > ul > li:not(:nth-child(8n)) {
-  margin-right:20px;
+.work-list-box > ul > li:not(:nth-child(5n)) {
+  margin-right:10px;
 }
-
 
 /*work-list-box 끝*/
