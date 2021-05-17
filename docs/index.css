@@ -174,4 +174,52 @@ color:white;
   padding:0 10px;
 }
 
+.work-list-box > ul > li > div > .work-name {
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.work-list-box > ul > li > div > .work-date-period {
+  margin-top: 5px;
+  text-align: center;
+  color:#565656;
+}
+
+.work-list-box > ul > li > div > .img-box {
+  position:relative;
+  overflow: hidden;
+}
+
+.work-list-box > ul > li > div > .img-box > .addi {
+  border:3px solid #81BEF7;
+  color:#81BEF7;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.work-list-box > ul > li:hover > div > .img-box > .addi {
+  opacity:1;
+}
+
+.work-list-box > ul > li > div > .img-box > .bg {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.work-list-box > ul > li > div > .img-box > img {
+  transition: transform 1s;
+  z-index: -1;
+  position: relative;
+}
+
+.work-list-box > ul > li:hover > div > .img-box > img {
+  transform: scale(1.4);
+}
 /*work-list-box 끝*/
